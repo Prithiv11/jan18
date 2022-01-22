@@ -39,9 +39,9 @@ var data = [
         obj.childrens.forEach(el => {
             unpack(el);
         });
-        console.log(output);
     }
 
     data.forEach(element=>{
         unpack(element);
     })
+    console.log(output);
